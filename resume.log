@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 NOV 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 NOV 2025 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,7 +298,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 7.
 ) (./components/skills.tex) (./components/experience.tex
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )) (./components/projects.tex) (./components/education.tex)
@@ -314,15 +314,15 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13180 strings out of 473190
- 224949 string characters out of 5715801
- 625881 words of memory out of 5000000
- 36295 multiletter control sequences out of 15000+600000
+ 13181 strings out of 473190
+ 224963 string characters out of 5715801
+ 626919 words of memory out of 5000000
+ 36296 multiletter control sequences out of 15000+600000
  576551 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,303b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on resume.pdf (1 page, 46332 bytes).
+Output written on resume.pdf (1 page, 45915 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
