@@ -1,0 +1,24 @@
+% Custom commands for resume components
+
+% Job entry component: \jobEntry{Title}{Date}{content}
+\newcommand{\jobEntry}[3]{
+    \noindent\textbf{\color{sectioncolor}#1} \hfill #2
+    \begin{itemize}[leftmargin=1.5em, itemsep=0em, topsep=0em, parsep=0em]
+        #3
+    \end{itemize}
+    \vspace{0.3em}
+}
+
+% Project entry component: \projectEntry{Title}{content}
+\newcommand{\projectEntry}[2]{
+    \noindent\textbf{\color{sectioncolor}#1}
+    \begin{itemize}[leftmargin=1.5em, itemsep=0em, topsep=0em, parsep=0em]
+        #2
+    \end{itemize}
+    \vspace{0.3em}
+}
+
+% Skill category component: \skillCategory{Category}{Skills}
+\newcommand{\skillCategory}[2]{
+    \textbf{\color{sectioncolor}#1:} #2\\[0em]
+}
