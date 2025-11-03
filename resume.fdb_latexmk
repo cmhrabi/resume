@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762204040.38475 "/Users/calumhrabi/resume/resume.tex" "resume.pdf" "resume" 1762204040.73616 0
+["pdflatex"] 1762204124.29173 "/Users/calumhrabi/resume/resume.tex" "resume.pdf" "resume" 1762204124.63652 0
   "/Users/calumhrabi/resume/resume.tex" 1762203084.79662 1166 2a2ccf2032d8b733fdcdf807a1e63e60 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -82,12 +82,12 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "components/commands.tex" 1762203216.87411 877 5a721e8875d30c73cf38739ce0f324f7 ""
   "components/education.tex" 1762202733.49417 181 358e34440d6e09885a166013e15d7abc ""
-  "components/experience.tex" 1762203956.89462 2391 15382e38e50f8c3d8622abf608127574 ""
+  "components/experience.tex" 1762204124.10759 2391 4cdfed412250eaa50bf16c14677a3e94 ""
   "components/header.tex" 1762202830.00516 472 6eed391862e0c6d02e114a32562b6fd4 ""
   "components/projects.tex" 1762204040.28867 962 2188262a61cac4e0bc76a3b35bd67206 ""
   "components/skills.tex" 1762203361.13852 339 5e11d2953a49cc678b31c06faf0669cf ""
-  "resume.aux" 1762204040.70409 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "resume.out" 1762204040.59544 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.aux" 1762204124.60457 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "resume.out" 1762204124.50175 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "resume.tex" 1762203084.79662 1166 2a2ccf2032d8b733fdcdf807a1e63e60 ""
   (generated)
   "resume.aux"
