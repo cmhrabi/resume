@@ -1,0 +1,140 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+% Page setup
+\geometry{
+    left=0.75in,
+    right=0.75in,
+    top=0.75in,
+    bottom=0.75in
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Define colors
+\definecolor{namecolor}{RGB}{31, 73, 125}
+\definecolor{sectioncolor}{RGB}{31, 73, 125}
+\definecolor{linkcolor}{RGB}{0, 0, 238}
+
+% Customize hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor
+}
+
+% Section formatting
+\titleformat{\section}
+    {\color{sectioncolor}\large\bfseries}
+    {}
+    {0em}
+    {}
+    [\color{sectioncolor}\titlerule]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+    \item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabular*}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\color{namecolor}\textbf{Calum Hrabi}}\\[0.3em]
+    {\large Software Developer}\\[0.5em]
+    \faPhone\ (+1) 647 447-1507 \quad|\quad
+    \faEnvelope\ \href{mailto:calum.hrabi@gmail.com}{calum.hrabi@gmail.com} \quad|\quad
+    \faGithub\ \href{https://github.com/cmhrabi}{cmhrabi} \quad|\quad
+    \faLinkedin\ \href{https://linkedin.com/in/calum-hrabi}{Calum Hrabi}
+\end{center}
+
+\vspace{0.3em}
+
+% Skills
+\section*{Skills}
+\textbf{Programming Languages:} Go, Python, JavaScript / TypeScript, Java\\
+\textbf{Frameworks:} React, React Native, Express, Flask, SQLc, TensorFlow, Keras, Pandas, PySpark\\
+\textbf{Other Tools:} MySQL, PostgreSQL, NoSQL, AWS, CloudFormation, GCP, Firebase, Docker
+
+% Experience
+\section*{Experience}
+
+\textbf{Full-Stack Software Developer - V2 Cloud Solutions} \hfill Sept 2024 - Jan 2025
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Designed and implemented new APIs using \textbf{Python} and \textbf{Django} to manage requests for a SaaS cloud services dashboard, enhancing backend functionality and scalability.
+    \item Built and refined \textbf{React} frontend features aligned with Figma designs to deliver a seamless and visually cohesive user experience.
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{Back-End Software Developer - Kablamo Canada Inc} \hfill Jan 2024 - May 2024
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Developed serverless backend of Fin-tech Mobile Application using \textbf{Golang} and \textbf{AWS Lambda}, addressing needs of an high-profile client.
+    \item Collaborated with DevOps team to implement \textbf{AWS Kinesis} Data Stream, enabling real-time streaming of Lambda API logs to \textbf{Datadog} for enhanced monitoring and analysis.
+    \item Created an internal CLI tool using \textbf{Go} and \textbf{Cobra} to generate comprehensive unit test coverage reports for 80+ Git repositories.
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{Front-End Software Developer - Kablamo Canada Inc} \hfill May 2023 - Aug 2023
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Contributed to frontend of a Fin-tech Mobile Application using \textbf{React-Native} and \textbf{Typescript}, catering to the needs of an enterprise-level client.
+    \item Worked with back-end team and design team to overhaul user-interface of the application and implement new components designed in \textbf{Figma}
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{Full-Stack Developer -- Vluence} \hfill Sept 2022 - May 2023
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Developed \textbf{React-Native} components using \textbf{TypeScript} for home page of social media mobile application
+    \item Created \textbf{REST APIs} using \textbf{Express} to handle CRUD requests for the mobile app
+    \item Implemented ETL pipeline using \textbf{Python}, \textbf{Pandas}, \textbf{BS4}, and \textbf{PostgresSQL} to extract SEC filing data
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{Software Developer -- Environment and Climate Change Canada} \hfill Jan 2022 - April 2022
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Developed \textbf{REST APIs} for internal web application, using \textbf{Python}, \textbf{Flask} and \textbf{Jinja2} to help the CITES Canada team issue permits with more precision and efficiency
+\end{itemize}
+
+% Projects
+\section*{Projects}
+
+\textbf{Machine Learning Crypto Trader}
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Predicted the hourly price of Ethereum with \textbf{<0.1 Mean Average Percent Error}, using a \textbf{Bi-directional LSTM} neural network with \textbf{TensorFlow/Keras}, based on historical time-series data
+    \item Implemented an ETL pipeline to process real-time and batch data, using \textbf{Kafka}, \textbf{PySpark}, \textbf{Pandas}, \textbf{Keras}, and \textbf{MongoDB}, to optimize the precision of the model
+\end{itemize}
+
+\vspace{0.3em}
+
+\textbf{SoundBite AI Meeting Transcription}
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+    \item Created a full-stack application using \textbf{GCP} Speech-to-Text and \textbf{ChatGPT-3 APIs} to generate customized summaries of audio snippets, improving accessibility to spoken content.
+    \item Implemented secure user authentication with \textbf{Firebase}, and managed CRUD operations with \textbf{Express} and \textbf{Node.js} to enable smooth data handling and user account management.
+\end{itemize}
+
+% Education
+\section*{Education}
+
+\textbf{University of Waterloo} \hfill Waterloo, ON\\
+B.ASc in - Management Engineering \hfill Sept 2020 - April 2025
+
+\end{document}
