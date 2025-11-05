@@ -1,30 +1,47 @@
 % Custom commands for resume components
 
-% Job entry component: \jobEntry{Title}{Date}{content}
-\newcommand{\jobEntry}[3]{
-    \noindent\textbf{\color{sectioncolor}#1} \hfill #2
-    \begin{itemize}[leftmargin=1.5em, itemsep=0em, topsep=0em, parsep=0em]
-        #3
+% Job entry component: \jobEntry{Company}{Role}{Date}{content}
+\newcommand{\jobEntry}[4]{
+    \noindent\textbf{\large\color{sectioncolor}#1} \hfill \textit{#3}\\
+    \textit{#2}
+    \begin{itemize}[leftmargin=1.5em, itemsep=0.1em, topsep=0.2em, parsep=0em]
+        #4
     \end{itemize}
-    \vspace{0.3em}
+    \vspace{0.4em}
 }
 
 % Project entry component: \projectEntry{Title}{content}
 \newcommand{\projectEntry}[2]{
-    \noindent\textbf{\color{sectioncolor}#1}
-    \begin{itemize}[leftmargin=1.5em, itemsep=0em, topsep=0em, parsep=0em]
+    \noindent\textbf{\large\color{sectioncolor}#1}
+    \begin{itemize}[leftmargin=1.5em, itemsep=0.1em, topsep=0.2em, parsep=0em]
         #2
     \end{itemize}
-    \vspace{0.3em}
+    \vspace{0.4em}
 }
 
-% Job entry without description: \jobEntryNoDesc{Title}{Date}
-\newcommand{\jobEntryNoDesc}[2]{
-    \noindent\textbf{\color{sectioncolor}#1} \hfill #2
-    \vspace{0.3em}
+% Job entry without description: \jobEntryNoDesc{Company}{Role}{Date}
+\newcommand{\jobEntryNoDesc}[3]{
+    \noindent\textbf{\large\color{sectioncolor}#1} \hfill \textit{#3}\\
+    \textit{#2}
+    \vspace{0.4em}
 }
 
 % Skill category component: \skillCategory{Category}{Skills}
 \newcommand{\skillCategory}[2]{
-    \textbf{\color{sectioncolor}#1:} #2\\[0em]
+    \textbf{\color{sectioncolor}#1:} #2\\[0.15em]
+}
+
+% Job entry with multiple roles: \jobEntryMultiRole{Company}{Role1}{Date1}{content1}{Role2}{Date2}{content2}
+\newcommand{\jobEntryMultiRole}[7]{
+    \noindent\textbf{\large\color{sectioncolor}#1} \hfill \textit{#3}\\
+    \textit{#2}
+    \begin{itemize}[leftmargin=1.5em, itemsep=0.1em, topsep=0.2em, parsep=0em]
+        #4
+    \end{itemize}
+    \vspace{0.15em}
+    \textit{#5} \hfill \textit{#6}
+    \begin{itemize}[leftmargin=1.5em, itemsep=0.1em, topsep=0.2em, parsep=0em]
+        #7
+    \end{itemize}
+    \vspace{0.4em}
 }

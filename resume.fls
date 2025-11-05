@@ -156,6 +156,7 @@ INPUT ./components/skills.tex
 INPUT ./components/skills.tex
 INPUT ./components/skills.tex
 INPUT components/skills.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT ./components/experience.tex
@@ -163,6 +164,8 @@ INPUT ./components/experience.tex
 INPUT ./components/experience.tex
 INPUT ./components/experience.tex
 INPUT components/experience.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
@@ -191,6 +194,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
 INPUT resume.aux
 INPUT ./resume.out
@@ -199,3 +206,4 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwe
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
